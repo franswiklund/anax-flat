@@ -14,6 +14,18 @@ return [
         // Here comes the menu structure
         "items" => [
 
+            "index" => [
+                "text"  => t("Hem"),
+                "url"   => $this->di->get("url")->create("index"),
+                "title" => t("Hem")
+            ],
+
+            "about" => [
+                "text"  => t("Om"),
+                "url"   => $this->di->get("url")->create("about"),
+                "title" => t("Om hemsidan")
+            ],
+
             "report" => [
                 "text"  => t("Rapporter"),
                 "url"   => $this->di->get("url")->create("report"),
@@ -21,10 +33,16 @@ return [
                 "mark-if-parent" => true,
             ],
 
-            "about" => [
-                "text"  => t("Om"),
-                "url"   => $this->di->get("url")->create("about"),
-                "title" => t("Om hemsidan")
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("Grid")
+            ],
+
+            "typography" => [
+                "text"  => t("Typografi"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Typografi")
             ],
         ],
     ],
@@ -43,17 +61,35 @@ return [
         // Here comes the menu structure
         "items" => [
 
-            "report" => [
-                "text"  => t("Report"),
-                "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Reports from kmom assignments"),
-                "mark-if-parent" => true,
+            "index" => [
+                "text"  => t("Hem"),
+                "url"   => $this->di->get("url")->create("index"),
+                "title" => t("Hem")
             ],
 
             "about" => [
-                "text"  => t("About"),
+                "text"  => t("Om"),
                 "url"   => $this->di->get("url")->create("about"),
-                "title" => t("About this website")
+                "title" => t("Om hemsidan")
+            ],
+
+            "report" => [
+                "text"  => t("Rapporter"),
+                "url"   => $this->di->get("url")->create("report"),
+                "title" => t("Rapporter för Kmom"),
+                "mark-if-parent" => true,
+            ],
+
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("Grid")
+            ],
+
+            "typography" => [
+                "text"  => t("Typografi"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Typografi")
             ],
         ],
     ],
