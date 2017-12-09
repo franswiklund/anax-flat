@@ -56,6 +56,18 @@ return [
                 "url"   => $this->di->get("url")->create("theme"),
                 "title" => t("Färgteman")
             ],
+
+            "images" => [
+                "text"  => t("Bilder"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Bilder")
+            ],
+
+            "blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("Blogg")
+            ],
         ],
     ],
 
@@ -114,6 +126,18 @@ return [
                 "text"  => t("Färgteman"),
                 "url"   => $this->di->get("url")->create("theme"),
                 "title" => t("Färgteman")
+            ],
+
+            "images" => [
+                "text"  => t("Bilder"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Bilder")
+            ],
+
+            "blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("Blogg")
             ],
         ],
     ],
