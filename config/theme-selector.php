@@ -76,5 +76,49 @@ return [
             "class"      => "fun",
             "stylesheets" => []
         ],
+
+        "separator3" => "------------------------------------------------",
+
+        "elements1"       => [
+            "title"      => "Image backgrounds, opacity & centered layout",
+            "class"      => "Elements",
+            "stylesheets" => [
+                "css/elements1.min.css"
+            ]
+        ],
+
+        "elements2"       => [
+            "title"      => "Texture & multiple img backgrounds & full width layout",
+            "class"      => "Elements",
+            "stylesheets" => [
+                "css/elements2.min.css"
+            ]
+        ],
+
+        "elements3"       => [
+            "title"      => "Gradient backgrounds, borders & centered layout",
+            "class"      => "Elements",
+            "stylesheets" => [
+                "css/elements3.min.css"
+            ]
+        ],
+
+        "separator4" => "------------------------------------------------",
+
+        "principle1"       => [
+            "title"      => "Unity & Harmony",
+            "class"      => "Principles",
+            "stylesheets" => [
+                "css/principles1.min.css"
+            ]
+        ],
+
+        "principle2"       => [
+            "title"      => "Variation & Harmony",
+            "class"      => "Principles",
+            "stylesheets" => [
+                "css/principles2.min.css"
+            ]
+        ],
     ]
 ];
